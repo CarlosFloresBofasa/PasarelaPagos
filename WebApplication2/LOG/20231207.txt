@@ -1,0 +1,30 @@
+Error btnTarjetaCobroCobrar ValidaConexionBaseDatos: Referencia a objeto no establecida como instancia de un objeto.
+Error btnTarjetaCobroCobrar PerfilCorreoValidaExiste: Referencia a objeto no establecida como instancia de un objeto.
+Error btnTarjetaCobroCobrar PerfilCorreoValidaFuncionamiento: Referencia a objeto no establecida como instancia de un objeto.
+Error btnTarjetaCobroCobrar ValidaConexionBaseDatos: Referencia a objeto no establecida como instancia de un objeto.
+Error btnTarjetaCobroCobrar ValidaConexionBaseDatos: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaExiste: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaFuncionamiento: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar ValidaConexionBaseDatos: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaExiste: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaFuncionamiento: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar ValidaConexionBaseDatos: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaExiste: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaFuncionamiento: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar ValidaConexionBaseDatos: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaExiste: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaFuncionamiento: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar ValidaConexionBaseDatos: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaExiste: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaFuncionamiento: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar ValidaConexionBaseDatos: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaExiste: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar PerfilCorreoValidaFuncionamiento: Array no tiene el formato correcto
+Error btnTarjetaCobroCobrar ValidaConexionBaseDatos: Longitud de datos para descifrado no válida.
+Error btnTarjetaCobroCobrar PerfilCorreoValidaExiste: Longitud de datos para descifrado no válida.
+Error btnTarjetaCobroCobrar PerfilCorreoValidaFuncionamiento: Longitud de datos para descifrado no válida.
+Error btnTarjetaCobroCobrar ValidaConexionBaseDatos: Longitud de datos para descifrado no válida.
+Error btnTarjetaCobroCobrar PerfilCorreoValidaExiste: Longitud de datos para descifrado no válida.
+Error btnTarjetaCobroCobrar PerfilCorreoValidaFuncionamiento: Longitud de datos para descifrado no válida.
+Error btnTarjetaCobroCobrar PerfilCorreoValidaExiste: Referencia a objeto no establecida como instancia de un objeto.
+Error btnTarjetaCobroCobrar PerfilCorreoValidaFuncionamiento: Referencia a objeto no establecida como instancia de un objeto.

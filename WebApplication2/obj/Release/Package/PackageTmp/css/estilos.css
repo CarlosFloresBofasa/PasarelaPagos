@@ -1,0 +1,287 @@
+﻿
+.contenedor {
+    display: flex;
+    align-items: center;
+    font-family: 'poppins',Sans-serif;
+}
+/* Estilos para la tabla de carrito de compras */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+    .styled-table th,
+    .styled-table td {
+        border: 1px solid #dddddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .styled-table th {
+        background-color: #f2f2f2;
+    }
+
+    .styled-table tbody tr:nth-of-type(even) {
+        background-color: #f9f9f9;
+    }
+
+    .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #333333;
+    }
+
+        .styled-table tbody tr:last-of-type td {
+            font-weight: bold;
+        }
+
+/* Estilos para el carrito de compras */
+.cart-table {
+    border: 2px solid #333333;
+    border-radius: 5px;
+    font-family: 'poppins',Sans-serif;
+}
+
+    .cart-table th,
+    .cart-table td {
+        padding: 10px;
+    }
+
+    .cart-table tbody tr:last-of-type {
+        background-color: #fff;
+        font-weight: bold;
+    }
+
+
+/* Estilos para dividir la pantalla de forma vertical */
+.container {
+    display: flex;
+    height: 100vh; /* Establece la altura total de la ventana del navegador */
+    font-family: 'poppins',Sans-serif;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* Estilos para el contenedor */
+.contenedor-titulo-boton {
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+/* Estilos para el botón */
+.boton-azul {
+    background-color: white; /* Color de fondo azul */
+    color: black; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 10px; /* Ajuste de relleno */
+    border-radius: 0px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    width:100%;
+}
+
+/* Estilos para el ícono */
+.material-icons {
+    vertical-align: middle; /* Alinea verticalmente el ícono */
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
+}
+/* Estilos para la sección tarjetasContainerNit */
+/*#tarjetasContainerNit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
+.card {
+    font-family: 'poppins',Sans-serif;
+    width: 100%; /* Ancho deseado para la card */
+    height: 100%; /* Altura deseada para la card */
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 02px; /* Espacio entre las cards */
+    /* Otros estilos para la card */
+}
+.seleccionarBtn {
+    padding: 5px 8px; /* Padding más pequeño */
+    font-size: 10px; /* Tamaño de fuente más pequeño */
+}
+.selected-card {
+    background-color: #f0f0f0; /* Cambia el color de fondo a tu preferencia */
+    /* Agrega cualquier otro estilo deseado */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+
+
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+}
+span.red {
+    background: #B66B78;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+.separador {
+    border: 2px solid #E0E0E0;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.producto_listado {
+    width: 100%;
+}
+
+.producto_nombre {
+    width: 60%;
+    text-align: left !important;
+}
+
+.producto_espacio {
+    width: 10%;
+}
+
+.producto_precio {
+    width: 30%;
+    text-align: right !important;
+}
+
+.producto_fila {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.producto_encabezado {
+    font-weight: 700;
+    color: #000000;
+}
+
+.producto_pie {
+    font-weight: 700;
+    color: #ABABAB;
+}
+
+.btn {
+    width: 100%;
+}
+
+.dxbButton_Mulberry {
+    background-image: none !important;
+}
+
+@media (max-width: 991px) {
+    .hidden-movil {
+        display: none !important;
+    }
+
+    .separador {
+        margin-top: 15px;
+    }
+}
+
+.Titulo {
+    font-weight: 700;
+    margin: 0;
+    font-family: 'poppins',Sans-serif;
+}
+
+
+.separador-seccion {
+    border: 1px solid #B66B78;
+}
+
+h4 {
+    color: #B66B78;
+    font-family: 'poppins',Sans-serif;
+}
+
+.btn-success {
+    background-color: #B66B78;
+    border-color: #B66B78;
+}
+
+    .btn-success:hover {
+        background-color: #9d2338;
+        border-color: #9d2338;
+    }
+.Titulo::before {
+    font-family: 'poppins',Sans-serif;
+    content: "1"; /* Texto o número a mostrar dentro del círculo */
+    display: inline-block;
+    width: 24px; /* Tamaño del círculo */
+    height: 24px; /* Tamaño del círculo */
+    border-radius: 50%; /* Hace que el contenedor sea un círculo */
+    /*background-color: #007bff;*/ /* Color de fondo del círculo */
+    background-color: #FDE9E8;
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del número en el centro del círculo */
+    line-height: 24px; /* Para centrar verticalmente el número */
+    position: absolute; /* Para posicionar el círculo */
+    top: -8px; /* Ajuste la posición vertical */
+    left: -32px; /* Ajuste la posición horizontal */
+    z-index: 1; /* Para que esté encima del texto del título */
+}
+.circulo {
+    width: 30px;
+    height: 30px;
+    background-color: #B66B78; /* Cambia el color del círculo según tu preferencia */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    background-color: #FDE9E8;
+}
+
+
+
+
+.myform .dxflGroupBox {
+    padding: 0 !important;
+    margin: 0 !important;
+    border:0;
+}
+.group {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding: 0px !important;
+    margin: 0 !important;
+    border: 4px dotted !important;
+    border-collapse: collapse !important;
+}
+.dxflGroup_Aqua {
+    padding: 0px;
+}
+.dxflGroupCell_@ASPxWebControl.GlobalTheme {
+    padding: 0 !important;
+}
+
+.dxgv th {
+    border: none !important;
+    padding: 0 !important;
+    text-align: left;
+}
+ 
+.dxgv td {
+    border: none !important;
+    padding: 0 !important;
+    text-align: left;
+}

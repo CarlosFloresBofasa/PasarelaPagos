@@ -1,0 +1,114 @@
+﻿@using WebApplication2.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = " ";
+}
+<main aria-labelledby="title">
+    <style>
+        /* Establece el cuerpo y el div contenedor al 100% de ancho y alto */
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para el cuadro o div que abarcará toda la página */
+        .cuadro {
+            width: 100%;
+            height: 100%;
+            background-color: #f0f0f0; /* Color de fondo (puedes cambiarlo) */
+        }
+
+        .btn-Derma {
+            background-color: #9d2338;
+            border-color: #9d2338;
+        }
+         
+        /* Estilo personalizado para el botón */
+        .btn-custom {
+            background-color: #B66B78; /* Color de fondo personalizado */
+            color: white; /* Color de texto en blanco */
+            border: none; /* Sin borde */
+            padding: 10px 20px; /* Ajusta el espaciado interior del botón según tus necesidades */
+        }
+        .separador {
+            margin-top: 15px;
+        }
+
+    </style>
+    <h2 id="title">@ViewBag.Title.</h2>
+
+    <div class="cuadro">
+        <!-- Contenido del cuadro aquí -->
+         @*<div class="col-8">
+     <hr class="separador-seccion" />
+ </div>*@
+        <div class="row">
+            <div class="col-md-8">
+                <div class="col-md-4">
+                    <section id="socialLoginForm">
+                        @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+                    </section>
+                </div>
+                <section id="loginForm">
+                    @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="col-8">
+                            <hr class="separador-seccion" />
+                        </div>
+
+                        <h6>O Ingresá Con :</h6>
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="row">
+                            @Html.LabelFor(m => m.Email, new { @class = "col-md-2 col-form-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="row">
+                            @Html.LabelFor(m => m.Password, new { @class = "col-md-2 col-form-label" })
+                            <div class="col-md-10">
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="offset-md-2 col-md-10">
+                                <div class="checkbox">
+                                    @Html.CheckBoxFor(m => m.RememberMe)
+                                    @Html.LabelFor(m => m.RememberMe)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="offset-md-2 col-md-10">
+                                <input type="submit" value="Iniciar sesión" class="btn btn-custom" />
+                            </div>
+                        </div>
+
+                        <p>
+                            @Html.ActionLink("Registrarse como usuario nuevo", "Register")
+                        </p>
+                        @* Habilite esta opción una vez tenga la confirmación de la cuenta habilitada para la funcionalidad de restablecimiento de contraseña
+            <p>
+                @Html.ActionLink("¿Ha olvidado su contraseña?", "ForgotPassword")
+            </p>*@
+                    }
+                </section>
+            </div>
+
+        </div>
+ 
+        <div class="col-md-2 image-col text-center">
+            <img src="https://dermacentergt.com/wp-content/uploads/2021/02/quienes.png" alt="Imagen de inicio de sesión" class="img-fluid" />
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
